@@ -1,0 +1,103 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+.search-bar{
+
+  width: 50%;        
+  height: 50%;
+  margin: 0 auto;          
+    width: 50%;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    padding: 25px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+
+}
+
+.search-bar input {
+  width: 100%;          /* fills the div completely */
+  padding: 8px;         /* inner spacing */
+  font-size: 16px;       /* readable text */
+  border: 2px solid #555;
+  border-radius: 5px;
+  box-sizing: border-box; /* ensures padding doesn’t overflow */
+}
+
+.main-board{
+    height: 500;
+     border: 2px;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    padding: 25px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+    
+}
+.main-board img {
+  width: 100%;          /* Fit image to div width */
+  height: auto;          /* Maintain aspect ratio */
+  border-radius: 10px;    /* Optional rounded corners */
+  object-fit: cover;     /* Prevent stretching */
+  max: height 200px;;     /* Keeps all images uniform */
+  display: block;        /* Removes unwanted bottom gap */
+}
+
+
+
+header h1 {
+    margin-top: 20px;
+    font-size: 2.5rem;
+}
+
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 per row */
+    gap: 25px;
+    padding: 30px;
+    justify-items: center;
+}
+
+.product {
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product-img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.product a:hover {
+    background-color: gray;
+}
+
+footer {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+
