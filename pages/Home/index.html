@@ -1,101 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Stylez</title>
-        <link rel="stylesheet" href="./stylez.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylez</title>
+    <link rel="stylesheet" href="./stylez.css">
 
-    </head>
+</head>
 
-    <body>
-        <header>
-            <h1><i>STYLEZ</i></h1>
-            <div class="search-bar">
-                <input type="text" placeholder="Search for Products" id="searchInput">
-                <button type="button" id="searchBtn"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
-                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="search-icon">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-                    </svg>
-                </button>
-
-            </div>
-            <div class="icons-holder">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="cart-icon">
+<body>
+    <header>
+        <h1><i>STYLEZ</i></h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for Products" id="searchInput">
+            <button type="button" id="searchBtn"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="currentColor" class="search-icon">
                     <path stroke-linecap="round" stroke-linejoin="round"
-                        d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                        d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                 </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="profile-icon">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                        d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                </svg>
+            </button>
+
+        </div>
+        <div class="icons-holder">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="cart-icon">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="profile-icon">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+            </svg>
 
 
+        </div>
+    </header>
+    <hr>
+    <main>
+
+
+        <div class="main-board">
+            <input type="radio" name="slide" id="slide1" checked>
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+            <div class="slides">
+                <div class="slide">
+                    <img src="../../asserts/Screenshot 2025-11-13 092519.png" alt="main">
+                </div>
+
+                <div class="slide">
+                    <img src="../../asserts/53BJoLX3_bf91903d426c4e768df4256d618cbeb9.png" alt="main">
+                </div>
+                <div class="slide">
+                    <img src="../../asserts/e384cb32-690c-4ccf-a6cb-61df36960bb21651599573972-Workwear_Desk.webp"
+                        alt="main">
+                </div>
             </div>
-        </header>
-        <hr>
-        <main>
-
-
-            <div class="main-board">
-                <input type="radio" name="slide" id="slide1" checked>
-                <input type="radio" name="slide" id="slide2">
-                <input type="radio" name="slide" id="slide3">
-                <div class="slides">
-                    <div class="slide">
-                        <img src="../../asserts/Screenshot 2025-11-13 092519.png" alt="main">
-                    </div>
-
-                    <div class="slide">
-                        <img src="../../asserts/53BJoLX3_bf91903d426c4e768df4256d618cbeb9.png" alt="main">
-                    </div>
-                    <div class="slide">
-                        <img src="../../asserts/e384cb32-690c-4ccf-a6cb-61df36960bb21651599573972-Workwear_Desk.webp" alt="main">
-                    </div>
-                </div>
-                <div class="dots">
-                    <label for="slide1"></label>
-                    <label for="slide2"></label>
-                    <label for="slide3"></label>
-                </div>
+            <div class="dots">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
             </div>
-            <div class="img-container">
-                <div class="pro1">
-                    <img src="../../asserts/img1.jpge.webp" alt="product 1" width="150">
-                    <a href="#">Buy Now</a>
-                </div>
-                <div>
-                    <img src="../../asserts/img2.jpge.webp" alt="product 2" width="200">
-                    <a href="#">Buy Now</a>
-                </div>
-                <div>
-                    <img src="../../asserts/img3.jpge.webp" alt="product 3" width="170">
-                    <a href="#">Buy Now</a>
-                </div>
-                <div>
-                    <img src="../../asserts/img4.jpge.webp" alt="product 4" width="200">
-                    <a href="#">Buy Now</a>
-                </div>
-                <div>
-                    <img src="../../asserts/6b9c7688-7ca2-4d11-9e5b-a3745ecd8f761569310358973-The-Indian-Garage-Co-Men-Shirts-8481569310357131-1.webp"
-                        alt="product 5" width="200">
-                    <a href="#">Buy Now</a>
-                </div>
-                <br>
-                <div>
-                    <img src="../../asserts/CSMSSRT6023_4.webp" alt="product 6" width="200">
-                    <a href="#">Buy Now</a>
-                </div>
+        </div>
+        <div class="img-container">
+            <div class="pro1">
+                <img src="../../asserts/img1.jpge.webp" alt="product 1" width="150">
+                <button class="buy-btn">Buy Now</button>
+                <button class="buy-btn">Add to Cart</button>
+            </div>
+            <div>
+                <img src="../../asserts/img2.jpge.webp" alt="product 2" width="200">
+                <button class="buy-btn">Buy Now</button>
+                <button class="buy-btn">Add to Cart</button>
+            </div>
+            <div>
+                <img src="../../asserts/img3.jpge.webp" alt="product 3" width="170">
+                <button class="buy-btn">Buy Now</button>
+                <button class="buy-btn">Add to Cart</button>
+            </div>
+            <div>
+                <img src="../../asserts/img4.jpge.webp" alt="product 4" width="200">
+                <button class="buy-btn">Buy Now</button>
+                <button class="buy-btn">Add to Cart</button>
+            </div>
+            <div>
+                <img src="../../asserts/6b9c7688-7ca2-4d11-9e5b-a3745ecd8f761569310358973-The-Indian-Garage-Co-Men-Shirts-8481569310357131-1.webp"
+                    alt="product 5" width="200">
+                <button class="buy-btn">Buy Now</button>
+                <button class="buy-btn">Add to Cart</button>
+            </div>
+            <br>
+            <div>
+                <img src="../../asserts/CSMSSRT6023_4.webp" alt="product 6" width="200">
+                <button class="buy-btn">Buy Now</button>
+                <button class="buy-btn">Add to Cart</button>
+            </div>
+            <div>
+                <img src="../../asserts/lite-coffee-classic-shirt-1.webp" width="200">
+                <button class="buy-btn">Buy Now</button>
+                <button class="buy-btn">Add to Cart</button>
+            </div>
+            <div>
+                <img src="../../asserts/c8e3a8dc-ac5b-4d5a-998b-231d4609defb1694772337169-Mast--Harbour-Men-Shirts-4141694772336729-1.webp"
+                    alt="product 6" width="200">
+                <button class="buy-btn">Buy Now</button>
+                <button class="buy-btn">Add to Cart</button>
+            </div>
+            <div>
+                <img src="../../asserts/9a71effc-5ca8-4f56-94c0-2c71054102101566218377789-Roadster-Men-Shirts-8021566218376333-1.webp"
+                    alt="product 6" width="200">
+                <button class="buy-btn">Buy Now</button>
+                <button class="buy-btn">Add to Cart</button>
+            </div>
+            <div>
+                <img src="../../asserts/794fa5be-4afe-4402-b595-668fce57d2581649834658803MastHarbourMenBlueBuffaloChecksCheckedCasualShirt1.webp"
+                    alt="product 6" width="200">
+                <button class="buy-btn">Buy Now</button>
+                <button class="buy-btn">Add to Cart</button>
+            </div>
+            <div>
+                <img src="../../asserts/6Er9erCX_eb80d70ece024831b54865c2ab0cdb2e.webp" alt="product 6" width="200">
+                <button class="buy-btn">Buy Now</button>
+                <button class="buy-btn">Add to Cart</button>
+            </div>
+            <div>
+                <img src="../../asserts/6b9c7688-7ca2-4d11-9e5b-a3745ecd8f761569310358973-The-Indian-Garage-Co-Men-Shirts-8481569310357131-1.webp"
+                    alt="product 6" width="200">
+                <button class="buy-btn">Buy Now</button>
+                <button class="buy-btn">Add to Cart</button>
+            </div>
+            <div>
+                <img src="../../asserts/FgJa0MZ0_49af43d9a0c34532b92fa7da06d1a95d.webp" alt="product 6" width="200">
+                <button class="buy-btn">Buy Now</button>
+                <button class="buy-btn">Add to Cart</button>
+            </div>
+            <div>
+                <img src="../../asserts/2PqCigt6_adeeda321812475896c8e7534bac4a2e.webp" alt="product 6" width="200">
+                <button class="buy-btn">Buy Now</button>
+                <button class="buy-btn">Add to Cart</button>
+            </div>
+            <div>
+                <img src="../../asserts/0b3f40cf-0580-4721-8675-96531394e9721753533140100-Campus-Sutra-Comfort-Floral-Printed-Spread-Collar-Cotton-Cas-1.webp"
+                    alt="product 6" width="200">
+                <button class="buy-btn">Buy Now</button>
+                <button class="buy-btn">Add to Cart</button>
+            </div>
+            <div>
+                <img src="../../asserts/03f8fda7-2b7e-4355-8fe6-3e0ef81b91fc1677665302445-Roadster-Men-Shirts-9901677665301830-1.webp"
+                    alt="product 6" width="200">
+                <button class="buy-btn">Buy Now</button>
+                <button class="buy-btn">Add to Cart</button>
+            </div>
+            <div>
+                <img src="../../asserts/61Ll6MbqDML._SX679_.jpg"
+                    alt="product 6" width="200">
+                <button class="buy-btn">Buy Now</button>
+                <button class="buy-btn">Add to Cart</button>
+            </div>
+            <div>
+                <img src="../../asserts/61ylMOBhOXL._SX679_.jpg"
+                    alt="product 6" width="200">
+                <button class="buy-btn">Buy Now</button>
+                <button class="buy-btn">Add to Cart</button>
+            </div>
+            <div>
+                <img src="../../asserts/81RCi513Y9L._SY879_.jpg"
+                    alt="product 6" width="200">
+                <button class="buy-btn">Buy Now</button>
+                <button class="buy-btn">Add to Cart</button>
+            </div>
+            <div>
+                <img src="../../asserts/717ajqguMWL._SX679_.jpg"
+                    alt="product 6" width="200">
+                <button class="buy-btn">Buy Now</button>
+                <button class="buy-btn">Add to Cart</button>
+            </div>
 
-        </main>
-        <footer class="foot-cls">
-            All rights are Reserved @ 2024
-        </footer>
+    </main>
+    <footer class="foot-cls">
+        All rights are Reserved @ 2024
+    </footer>
 
-    </body>
+</body>
 
 </html>
