@@ -2,9 +2,11 @@ body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
+    user-select: none;
     overflow-x: hidden;
     overflow-y: auto;
 }
+
 
 .search-bar {
     width: 38rem;
