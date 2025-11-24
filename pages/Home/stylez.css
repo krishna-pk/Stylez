@@ -195,14 +195,32 @@ footer {
 }
 
 .img-container div{
+
     display:flex;
     flex-direction: column;
     justify-content: end;
     width: 200px;
     height: 309px;
-    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.img-container div img{
+    width:200px;
+    height:270px;
+    object-fit: contain;
+}
+.img-container div .add-btn{
+
+    padding: 10px 16px;
+    background:goldenrod;
+    border: none;
+    
+    
+    
 }
 .img-container div .buy-btn{
+    border: none;
+
     padding: 10px 16px;
 
 
