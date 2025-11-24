@@ -86,7 +86,10 @@ body {
 }
 
 #slide2:checked~.slides {
-    transform: translateX(-50%);
+    transform: translateX(-33%);
+}
+#slide3:checked~.slides {
+    transform: translateX(-66%);
 }
 
 .dots {
